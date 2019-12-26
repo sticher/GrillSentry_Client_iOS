@@ -1,0 +1,650 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		08BEC0161F7B25AF00E603DE /* EggZact_v2_Device.swift in Sources */ = {isa = PBXBuildFile; fileRef = 08BEC0151F7B25AF00E603DE /* EggZact_v2_Device.swift */; };
+		08EDD2CD1F69CCC9006AB141 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 08EDD2CB1F69CCC9006AB141 /* Main.storyboard */; };
+		08EDD2CF1F69CCC9006AB141 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 08EDD2CE1F69CCC9006AB141 /* Assets.xcassets */; };
+		08EDD2DD1F69CCC9006AB141 /* EggZactTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 08EDD2DC1F69CCC9006AB141 /* EggZactTests.swift */; };
+		08EDD2E81F69CCC9006AB141 /* EggZactUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 08EDD2E71F69CCC9006AB141 /* EggZactUITests.swift */; };
+		B62C58051FBA35E3005FB30B /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = B62C58041FBA35E2005FB30B /* AppDelegate.swift */; };
+		B62C580D1FBA39EB005FB30B /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B62C580C1FBA39EB005FB30B /* LaunchScreen.storyboard */; };
+		B64BAD5E209CCAD500F770CC /* battery020.png in Resources */ = {isa = PBXBuildFile; fileRef = B64BAD58209CCAD400F770CC /* battery020.png */; };
+		B64BAD5F209CCAD500F770CC /* battery100.png in Resources */ = {isa = PBXBuildFile; fileRef = B64BAD59209CCAD400F770CC /* battery100.png */; };
+		B64BAD60209CCAD500F770CC /* battery060.png in Resources */ = {isa = PBXBuildFile; fileRef = B64BAD5A209CCAD400F770CC /* battery060.png */; };
+		B64BAD61209CCAD500F770CC /* battery000.png in Resources */ = {isa = PBXBuildFile; fileRef = B64BAD5B209CCAD500F770CC /* battery000.png */; };
+		B64BAD62209CCAD500F770CC /* battery040.png in Resources */ = {isa = PBXBuildFile; fileRef = B64BAD5C209CCAD500F770CC /* battery040.png */; };
+		B64BAD63209CCAD500F770CC /* battery080.png in Resources */ = {isa = PBXBuildFile; fileRef = B64BAD5D209CCAD500F770CC /* battery080.png */; };
+		B6C379011FD73794004AB6B3 /* EggZact_v2_ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 08BEC0131F7B258200E603DE /* EggZact_v2_ViewController.swift */; };
+		B6C379021FD73CFB004AB6B3 /* Hex.swift in Sources */ = {isa = PBXBuildFile; fileRef = B6C378FF1FD730E0004AB6B3 /* Hex.swift */; };
+		B6C83468201751AE008C79DD /* EggZact_Client_Image_LEDOFF.png in Resources */ = {isa = PBXBuildFile; fileRef = B6C83467201751AE008C79DD /* EggZact_Client_Image_LEDOFF.png */; };
+		B6C8346A201751BD008C79DD /* EggZact_Client_Image_LEDON.png in Resources */ = {isa = PBXBuildFile; fileRef = B6C83469201751BD008C79DD /* EggZact_Client_Image_LEDON.png */; };
+		B6C8346C201915B0008C79DD /* CustomAlertView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B6C8346B201915B0008C79DD /* CustomAlertView.swift */; };
+		B6C8346E2019161E008C79DD /* CustomAlertViewDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = B6C8346D2019161E008C79DD /* CustomAlertViewDelegate.swift */; };
+		B6DB7E1A1FBF5DEA005D7CB4 /* gears.png in Resources */ = {isa = PBXBuildFile; fileRef = B6DB7E191FBF5DEA005D7CB4 /* gears.png */; };
+		C38F6EFC2140B30800DAB6B7 /* GameKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C38F6EFB2140B30800DAB6B7 /* GameKit.framework */; };
+		C38F6EFE2140B30B00DAB6B7 /* StoreKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C38F6EFD2140B30B00DAB6B7 /* StoreKit.framework */; };
+		C3EF14F42140413C00C3C7FF /* LiquidCrystal-ExBold.otf in Resources */ = {isa = PBXBuildFile; fileRef = C3EF14F32140413C00C3C7FF /* LiquidCrystal-ExBold.otf */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		08EDD2D91F69CCC9006AB141 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 08EDD2BC1F69CCC9006AB141 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 08EDD2C31F69CCC9006AB141;
+			remoteInfo = EggZact;
+		};
+		08EDD2E41F69CCC9006AB141 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 08EDD2BC1F69CCC9006AB141 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 08EDD2C31F69CCC9006AB141;
+			remoteInfo = EggZact;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		08BEC0131F7B258200E603DE /* EggZact_v2_ViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = EggZact_v2_ViewController.swift; sourceTree = "<group>"; };
+		08BEC0151F7B25AF00E603DE /* EggZact_v2_Device.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = EggZact_v2_Device.swift; path = EggZact_v2/EggZact_v2/EggZact_v2_Device.swift; sourceTree = SOURCE_ROOT; };
+		08EDD2C41F69CCC9006AB141 /* EggZact.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = EggZact.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		08EDD2CC1F69CCC9006AB141 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		08EDD2CE1F69CCC9006AB141 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		08EDD2D31F69CCC9006AB141 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		08EDD2D81F69CCC9006AB141 /* EggZactTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = EggZactTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		08EDD2DC1F69CCC9006AB141 /* EggZactTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EggZactTests.swift; sourceTree = "<group>"; };
+		08EDD2DE1F69CCC9006AB141 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		08EDD2E31F69CCC9006AB141 /* EggZactUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = EggZactUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		08EDD2E71F69CCC9006AB141 /* EggZactUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EggZactUITests.swift; sourceTree = "<group>"; };
+		08EDD2E91F69CCC9006AB141 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		B62C58041FBA35E2005FB30B /* AppDelegate.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		B62C580C1FBA39EB005FB30B /* LaunchScreen.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = LaunchScreen.storyboard; sourceTree = "<group>"; };
+		B64BAD58209CCAD400F770CC /* battery020.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = battery020.png; sourceTree = "<group>"; };
+		B64BAD59209CCAD400F770CC /* battery100.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = battery100.png; sourceTree = "<group>"; };
+		B64BAD5A209CCAD400F770CC /* battery060.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = battery060.png; sourceTree = "<group>"; };
+		B64BAD5B209CCAD500F770CC /* battery000.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = battery000.png; sourceTree = "<group>"; };
+		B64BAD5C209CCAD500F770CC /* battery040.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = battery040.png; sourceTree = "<group>"; };
+		B64BAD5D209CCAD500F770CC /* battery080.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = battery080.png; sourceTree = "<group>"; };
+		B6C378FF1FD730E0004AB6B3 /* Hex.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Hex.swift; sourceTree = "<group>"; };
+		B6C83467201751AE008C79DD /* EggZact_Client_Image_LEDOFF.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = EggZact_Client_Image_LEDOFF.png; sourceTree = "<group>"; };
+		B6C83469201751BD008C79DD /* EggZact_Client_Image_LEDON.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = EggZact_Client_Image_LEDON.png; sourceTree = "<group>"; };
+		B6C8346B201915B0008C79DD /* CustomAlertView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomAlertView.swift; sourceTree = "<group>"; };
+		B6C8346D2019161E008C79DD /* CustomAlertViewDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomAlertViewDelegate.swift; sourceTree = "<group>"; };
+		B6CACB141FE1AF74005C9034 /* EggZact.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = EggZact.entitlements; sourceTree = "<group>"; };
+		B6DB7E191FBF5DEA005D7CB4 /* gears.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = gears.png; sourceTree = "<group>"; };
+		C38F6EFB2140B30800DAB6B7 /* GameKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = GameKit.framework; path = System/Library/Frameworks/GameKit.framework; sourceTree = SDKROOT; };
+		C38F6EFD2140B30B00DAB6B7 /* StoreKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = StoreKit.framework; path = System/Library/Frameworks/StoreKit.framework; sourceTree = SDKROOT; };
+		C3EF14F32140413C00C3C7FF /* LiquidCrystal-ExBold.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "LiquidCrystal-ExBold.otf"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		08EDD2C11F69CCC9006AB141 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C38F6EFC2140B30800DAB6B7 /* GameKit.framework in Frameworks */,
+				C38F6EFE2140B30B00DAB6B7 /* StoreKit.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		08EDD2D51F69CCC9006AB141 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		08EDD2E01F69CCC9006AB141 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		08EDD2BB1F69CCC9006AB141 = {
+			isa = PBXGroup;
+			children = (
+				08EDD2C61F69CCC9006AB141 /* EggZact */,
+				08EDD2DB1F69CCC9006AB141 /* EggZactTests */,
+				08EDD2E61F69CCC9006AB141 /* EggZactUITests */,
+				08EDD2C51F69CCC9006AB141 /* Products */,
+				C38F6EF62140B23400DAB6B7 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		08EDD2C51F69CCC9006AB141 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				08EDD2C41F69CCC9006AB141 /* EggZact.app */,
+				08EDD2D81F69CCC9006AB141 /* EggZactTests.xctest */,
+				08EDD2E31F69CCC9006AB141 /* EggZactUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		08EDD2C61F69CCC9006AB141 /* EggZact */ = {
+			isa = PBXGroup;
+			children = (
+				B64AE1B42034D8EB0071BC4F /* Images */,
+				08EDD2CE1F69CCC9006AB141 /* Assets.xcassets */,
+				B6CACB141FE1AF74005C9034 /* EggZact.entitlements */,
+				08EDD2D31F69CCC9006AB141 /* Info.plist */,
+				C3EF14F32140413C00C3C7FF /* LiquidCrystal-ExBold.otf */,
+				B62C580C1FBA39EB005FB30B /* LaunchScreen.storyboard */,
+				08EDD2CB1F69CCC9006AB141 /* Main.storyboard */,
+				08BEC0151F7B25AF00E603DE /* EggZact_v2_Device.swift */,
+				08BEC0131F7B258200E603DE /* EggZact_v2_ViewController.swift */,
+				B6C378FF1FD730E0004AB6B3 /* Hex.swift */,
+				B62C58041FBA35E2005FB30B /* AppDelegate.swift */,
+				B6C8346B201915B0008C79DD /* CustomAlertView.swift */,
+				B6C8346D2019161E008C79DD /* CustomAlertViewDelegate.swift */,
+			);
+			path = EggZact;
+			sourceTree = "<group>";
+		};
+		08EDD2DB1F69CCC9006AB141 /* EggZactTests */ = {
+			isa = PBXGroup;
+			children = (
+				08EDD2DC1F69CCC9006AB141 /* EggZactTests.swift */,
+				08EDD2DE1F69CCC9006AB141 /* Info.plist */,
+			);
+			path = EggZactTests;
+			sourceTree = "<group>";
+		};
+		08EDD2E61F69CCC9006AB141 /* EggZactUITests */ = {
+			isa = PBXGroup;
+			children = (
+				08EDD2E71F69CCC9006AB141 /* EggZactUITests.swift */,
+				08EDD2E91F69CCC9006AB141 /* Info.plist */,
+			);
+			path = EggZactUITests;
+			sourceTree = "<group>";
+		};
+		B64AE1B42034D8EB0071BC4F /* Images */ = {
+			isa = PBXGroup;
+			children = (
+				B64BAD5B209CCAD500F770CC /* battery000.png */,
+				B64BAD58209CCAD400F770CC /* battery020.png */,
+				B64BAD5C209CCAD500F770CC /* battery040.png */,
+				B64BAD5A209CCAD400F770CC /* battery060.png */,
+				B64BAD5D209CCAD500F770CC /* battery080.png */,
+				B64BAD59209CCAD400F770CC /* battery100.png */,
+				B6DB7E191FBF5DEA005D7CB4 /* gears.png */,
+				B6C83467201751AE008C79DD /* EggZact_Client_Image_LEDOFF.png */,
+				B6C83469201751BD008C79DD /* EggZact_Client_Image_LEDON.png */,
+			);
+			path = Images;
+			sourceTree = "<group>";
+		};
+		C38F6EF62140B23400DAB6B7 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				C38F6EFD2140B30B00DAB6B7 /* StoreKit.framework */,
+				C38F6EFB2140B30800DAB6B7 /* GameKit.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		08EDD2C31F69CCC9006AB141 /* EggZact */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 08EDD2EC1F69CCC9006AB141 /* Build configuration list for PBXNativeTarget "EggZact" */;
+			buildPhases = (
+				08EDD2C01F69CCC9006AB141 /* Sources */,
+				08EDD2C11F69CCC9006AB141 /* Frameworks */,
+				08EDD2C21F69CCC9006AB141 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = EggZact;
+			productName = EggZact;
+			productReference = 08EDD2C41F69CCC9006AB141 /* EggZact.app */;
+			productType = "com.apple.product-type.application";
+		};
+		08EDD2D71F69CCC9006AB141 /* EggZactTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 08EDD2EF1F69CCC9006AB141 /* Build configuration list for PBXNativeTarget "EggZactTests" */;
+			buildPhases = (
+				08EDD2D41F69CCC9006AB141 /* Sources */,
+				08EDD2D51F69CCC9006AB141 /* Frameworks */,
+				08EDD2D61F69CCC9006AB141 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				08EDD2DA1F69CCC9006AB141 /* PBXTargetDependency */,
+			);
+			name = EggZactTests;
+			productName = EggZactTests;
+			productReference = 08EDD2D81F69CCC9006AB141 /* EggZactTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		08EDD2E21F69CCC9006AB141 /* EggZactUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 08EDD2F21F69CCC9006AB141 /* Build configuration list for PBXNativeTarget "EggZactUITests" */;
+			buildPhases = (
+				08EDD2DF1F69CCC9006AB141 /* Sources */,
+				08EDD2E01F69CCC9006AB141 /* Frameworks */,
+				08EDD2E11F69CCC9006AB141 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				08EDD2E51F69CCC9006AB141 /* PBXTargetDependency */,
+			);
+			name = EggZactUITests;
+			productName = EggZactUITests;
+			productReference = 08EDD2E31F69CCC9006AB141 /* EggZactUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		08EDD2BC1F69CCC9006AB141 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0830;
+				LastUpgradeCheck = 0900;
+				ORGANIZATIONNAME = "Ken Sticher";
+				TargetAttributes = {
+					08EDD2C31F69CCC9006AB141 = {
+						CreatedOnToolsVersion = 8.3.3;
+						DevelopmentTeam = 4DF5UZ3HNF;
+						LastSwiftMigration = 0900;
+						ProvisioningStyle = Automatic;
+						SystemCapabilities = {
+							com.apple.GameCenter.iOS = {
+								enabled = 1;
+							};
+							com.apple.InAppPurchase = {
+								enabled = 1;
+							};
+							com.apple.Keychain = {
+								enabled = 1;
+							};
+						};
+					};
+					08EDD2D71F69CCC9006AB141 = {
+						CreatedOnToolsVersion = 8.3.3;
+						LastSwiftMigration = 0900;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 08EDD2C31F69CCC9006AB141;
+					};
+					08EDD2E21F69CCC9006AB141 = {
+						CreatedOnToolsVersion = 8.3.3;
+						LastSwiftMigration = 0900;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 08EDD2C31F69CCC9006AB141;
+					};
+				};
+			};
+			buildConfigurationList = 08EDD2BF1F69CCC9006AB141 /* Build configuration list for PBXProject "EggZact" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 08EDD2BB1F69CCC9006AB141;
+			productRefGroup = 08EDD2C51F69CCC9006AB141 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				08EDD2C31F69CCC9006AB141 /* EggZact */,
+				08EDD2D71F69CCC9006AB141 /* EggZactTests */,
+				08EDD2E21F69CCC9006AB141 /* EggZactUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		08EDD2C21F69CCC9006AB141 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C3EF14F42140413C00C3C7FF /* LiquidCrystal-ExBold.otf in Resources */,
+				B6DB7E1A1FBF5DEA005D7CB4 /* gears.png in Resources */,
+				B6C8346A201751BD008C79DD /* EggZact_Client_Image_LEDON.png in Resources */,
+				B64BAD60209CCAD500F770CC /* battery060.png in Resources */,
+				08EDD2CF1F69CCC9006AB141 /* Assets.xcassets in Resources */,
+				B64BAD5F209CCAD500F770CC /* battery100.png in Resources */,
+				B6C83468201751AE008C79DD /* EggZact_Client_Image_LEDOFF.png in Resources */,
+				B64BAD63209CCAD500F770CC /* battery080.png in Resources */,
+				B62C580D1FBA39EB005FB30B /* LaunchScreen.storyboard in Resources */,
+				B64BAD62209CCAD500F770CC /* battery040.png in Resources */,
+				B64BAD5E209CCAD500F770CC /* battery020.png in Resources */,
+				08EDD2CD1F69CCC9006AB141 /* Main.storyboard in Resources */,
+				B64BAD61209CCAD500F770CC /* battery000.png in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		08EDD2D61F69CCC9006AB141 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		08EDD2E11F69CCC9006AB141 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		08EDD2C01F69CCC9006AB141 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B6C8346E2019161E008C79DD /* CustomAlertViewDelegate.swift in Sources */,
+				B62C58051FBA35E3005FB30B /* AppDelegate.swift in Sources */,
+				08BEC0161F7B25AF00E603DE /* EggZact_v2_Device.swift in Sources */,
+				B6C379011FD73794004AB6B3 /* EggZact_v2_ViewController.swift in Sources */,
+				B6C8346C201915B0008C79DD /* CustomAlertView.swift in Sources */,
+				B6C379021FD73CFB004AB6B3 /* Hex.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		08EDD2D41F69CCC9006AB141 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				08EDD2DD1F69CCC9006AB141 /* EggZactTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		08EDD2DF1F69CCC9006AB141 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				08EDD2E81F69CCC9006AB141 /* EggZactUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		08EDD2DA1F69CCC9006AB141 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 08EDD2C31F69CCC9006AB141 /* EggZact */;
+			targetProxy = 08EDD2D91F69CCC9006AB141 /* PBXContainerItemProxy */;
+		};
+		08EDD2E51F69CCC9006AB141 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 08EDD2C31F69CCC9006AB141 /* EggZact */;
+			targetProxy = 08EDD2E41F69CCC9006AB141 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		08EDD2CB1F69CCC9006AB141 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				08EDD2CC1F69CCC9006AB141 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		08EDD2EA1F69CCC9006AB141 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		08EDD2EB1F69CCC9006AB141 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		08EDD2ED1F69CCC9006AB141 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_ENTITLEMENTS = EggZact/EggZact.entitlements;
+				DEVELOPMENT_TEAM = 4DF5UZ3HNF;
+				INFOPLIST_FILE = EggZact/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = EggZact;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_SWIFT3_OBJC_INFERENCE = On;
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = 1;
+			};
+			name = Debug;
+		};
+		08EDD2EE1F69CCC9006AB141 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_ENTITLEMENTS = EggZact/EggZact.entitlements;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				DEVELOPMENT_TEAM = 4DF5UZ3HNF;
+				INFOPLIST_FILE = EggZact/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = EggZact;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_SWIFT3_OBJC_INFERENCE = On;
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = 1;
+			};
+			name = Release;
+		};
+		08EDD2F01F69CCC9006AB141 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = EggZactTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "Circuit-Design-Inc.EggZactTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_SWIFT3_OBJC_INFERENCE = On;
+				SWIFT_VERSION = 4.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/EggZact.app/EggZact";
+			};
+			name = Debug;
+		};
+		08EDD2F11F69CCC9006AB141 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = EggZactTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "Circuit-Design-Inc.EggZactTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_SWIFT3_OBJC_INFERENCE = On;
+				SWIFT_VERSION = 4.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/EggZact.app/EggZact";
+			};
+			name = Release;
+		};
+		08EDD2F31F69CCC9006AB141 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				INFOPLIST_FILE = EggZactUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "Circuit-Design-Inc.EggZactUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_SWIFT3_OBJC_INFERENCE = On;
+				SWIFT_VERSION = 4.0;
+				TEST_TARGET_NAME = EggZact;
+			};
+			name = Debug;
+		};
+		08EDD2F41F69CCC9006AB141 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				INFOPLIST_FILE = EggZactUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "Circuit-Design-Inc.EggZactUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_SWIFT3_OBJC_INFERENCE = On;
+				SWIFT_VERSION = 4.0;
+				TEST_TARGET_NAME = EggZact;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		08EDD2BF1F69CCC9006AB141 /* Build configuration list for PBXProject "EggZact" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				08EDD2EA1F69CCC9006AB141 /* Debug */,
+				08EDD2EB1F69CCC9006AB141 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		08EDD2EC1F69CCC9006AB141 /* Build configuration list for PBXNativeTarget "EggZact" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				08EDD2ED1F69CCC9006AB141 /* Debug */,
+				08EDD2EE1F69CCC9006AB141 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		08EDD2EF1F69CCC9006AB141 /* Build configuration list for PBXNativeTarget "EggZactTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				08EDD2F01F69CCC9006AB141 /* Debug */,
+				08EDD2F11F69CCC9006AB141 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		08EDD2F21F69CCC9006AB141 /* Build configuration list for PBXNativeTarget "EggZactUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				08EDD2F31F69CCC9006AB141 /* Debug */,
+				08EDD2F41F69CCC9006AB141 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 08EDD2BC1F69CCC9006AB141 /* Project object */;
+}
