@@ -148,7 +148,7 @@ class ViewController: UIViewController, CBCentralManagerDelegate, CBPeripheralDe
             print("NEXT PERIPHERAL NAME: \(peripheralName)")
             print("NEXT PERIPHERAL UUID: \(peripheral.identifier.uuidString)")
             
-            if peripheralName == "EggZact Dome Temp"
+            if peripheralName == "GrlSentry POGI"
             {
                 connectCounter = 0
                 connectTimer = Timer.scheduledTimer(timeInterval:  1.0, target: self, selector: #selector(flashForConnect), userInfo: nil, repeats: true)
