@@ -555,7 +555,7 @@ class ViewController: UIViewController, CBCentralManagerDelegate, CBPeripheralDe
     {
         if (connectCounter % 2 == 0)
         {
-            Command.text = "Found EggZact"
+            Command.text = "Found GrillSentry"
         }
         else
         {
