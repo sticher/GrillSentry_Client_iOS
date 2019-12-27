@@ -372,7 +372,7 @@ class ViewController: UIViewController, CBCentralManagerDelegate, CBPeripheralDe
                     tempString = tempString.replacingOccurrences(of: " ", with: "")
                     let unit = isCelcius ? "°C" : "°F"
                     
-                    var arr = tempString.components(separatedBy: ".")
+                    let arr = tempString.components(separatedBy: ".")
                     if ((arr[1] != "0") && (firstReadingObtained == false))
                     {
                         isDome = true
@@ -390,7 +390,7 @@ class ViewController: UIViewController, CBCentralManagerDelegate, CBPeripheralDe
                         else
                         {
                             print("Probe temperature: \(tempString)\n")
-                            Probe.text = (tempString + unit + " Probe")
+                            Probe.text = ("Food Probe = " + tempString + unit)
                             isDome.toggle()
                         }
                     }
