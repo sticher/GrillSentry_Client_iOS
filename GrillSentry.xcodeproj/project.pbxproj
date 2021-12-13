@@ -1,0 +1,1104 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		0803493D245C6C4C0062908A /* USB_Chrg1.png in Resources */ = {isa = PBXBuildFile; fileRef = 0803493C245C6C4B0062908A /* USB_Chrg1.png */; };
+		0803493F245CA05C0062908A /* USB_Chrg2.png in Resources */ = {isa = PBXBuildFile; fileRef = 0803493E245CA05C0062908A /* USB_Chrg2.png */; };
+		08034941245CB2E60062908A /* RSSI_100v1.png in Resources */ = {isa = PBXBuildFile; fileRef = 08034940245CB2E60062908A /* RSSI_100v1.png */; };
+		08034946245CC1960062908A /* RSSI_020v1.png in Resources */ = {isa = PBXBuildFile; fileRef = 08034942245CC1960062908A /* RSSI_020v1.png */; };
+		08034947245CC1960062908A /* RSSI_040v1.png in Resources */ = {isa = PBXBuildFile; fileRef = 08034943245CC1960062908A /* RSSI_040v1.png */; };
+		08034948245CC1960062908A /* RSSI_080v1.png in Resources */ = {isa = PBXBuildFile; fileRef = 08034944245CC1960062908A /* RSSI_080v1.png */; };
+		08034949245CC1960062908A /* RSSI_060v1.png in Resources */ = {isa = PBXBuildFile; fileRef = 08034945245CC1960062908A /* RSSI_060v1.png */; };
+		0803494B245CC86E0062908A /* RSSI_000v1.png in Resources */ = {isa = PBXBuildFile; fileRef = 0803494A245CC86D0062908A /* RSSI_000v1.png */; };
+		0803494D24603B3F0062908A /* RSSI_100v2.png in Resources */ = {isa = PBXBuildFile; fileRef = 0803494C24603B3E0062908A /* RSSI_100v2.png */; };
+		080FA58326B9B4FC00A0C9B0 /* GraphingAppIcon3.png in Resources */ = {isa = PBXBuildFile; fileRef = 080FA58226B9B4FB00A0C9B0 /* GraphingAppIcon3.png */; };
+		080FA58726BAEB3900A0C9B0 /* GraphProbeTempView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 080FA58626BAEB3900A0C9B0 /* GraphProbeTempView.swift */; };
+		080FA58D26BD8CE400A0C9B0 /* ChrtPrbTtl.png in Resources */ = {isa = PBXBuildFile; fileRef = 080FA58C26BD8CE400A0C9B0 /* ChrtPrbTtl.png */; };
+		080FA58F26BD8FA800A0C9B0 /* ChrtIcnPrbWndw3.png in Resources */ = {isa = PBXBuildFile; fileRef = 080FA58E26BD8FA700A0C9B0 /* ChrtIcnPrbWndw3.png */; };
+		080FA59126BDB2A700A0C9B0 /* ChartAppIcon2.png in Resources */ = {isa = PBXBuildFile; fileRef = 080FA59026BDB2A300A0C9B0 /* ChartAppIcon2.png */; };
+		080FA59326BDB9DC00A0C9B0 /* DmeChrtTtl.png in Resources */ = {isa = PBXBuildFile; fileRef = 080FA59226BDB9D900A0C9B0 /* DmeChrtTtl.png */; };
+		080FA59526BDBBDE00A0C9B0 /* DomeChrtWndwIcon.png in Resources */ = {isa = PBXBuildFile; fileRef = 080FA59426BDBBDE00A0C9B0 /* DomeChrtWndwIcon.png */; };
+		080FA59726BDBD1000A0C9B0 /* DomeChrtIcon.png in Resources */ = {isa = PBXBuildFile; fileRef = 080FA59626BDBD0F00A0C9B0 /* DomeChrtIcon.png */; };
+		080FA59B26BDCC5A00A0C9B0 /* DomeChrtWndwIcon2.png in Resources */ = {isa = PBXBuildFile; fileRef = 080FA59826BDCC5800A0C9B0 /* DomeChrtWndwIcon2.png */; };
+		080FA59C26BDCC5A00A0C9B0 /* DmeChrtTtl2.png in Resources */ = {isa = PBXBuildFile; fileRef = 080FA59926BDCC5900A0C9B0 /* DmeChrtTtl2.png */; };
+		080FA59D26BDCC5A00A0C9B0 /* DomeChrtIcon2.png in Resources */ = {isa = PBXBuildFile; fileRef = 080FA59A26BDCC5900A0C9B0 /* DomeChrtIcon2.png */; };
+		082F26E724635E99008FDAC3 /* RSSI_080v3.png in Resources */ = {isa = PBXBuildFile; fileRef = 082F26E124635E98008FDAC3 /* RSSI_080v3.png */; };
+		082F26E824635E99008FDAC3 /* RSSI_100v3.png in Resources */ = {isa = PBXBuildFile; fileRef = 082F26E224635E98008FDAC3 /* RSSI_100v3.png */; };
+		082F26E924635E99008FDAC3 /* RSSI_060v3.png in Resources */ = {isa = PBXBuildFile; fileRef = 082F26E324635E98008FDAC3 /* RSSI_060v3.png */; };
+		082F26EA24635E99008FDAC3 /* RSSI_000v3.png in Resources */ = {isa = PBXBuildFile; fileRef = 082F26E424635E98008FDAC3 /* RSSI_000v3.png */; };
+		082F26EB24635E99008FDAC3 /* RSSI_040v3.png in Resources */ = {isa = PBXBuildFile; fileRef = 082F26E524635E99008FDAC3 /* RSSI_040v3.png */; };
+		082F26EC24635E99008FDAC3 /* RSSI_020v3.png in Resources */ = {isa = PBXBuildFile; fileRef = 082F26E624635E99008FDAC3 /* RSSI_020v3.png */; };
+		082F26EE24636169008FDAC3 /* RSSI_100v4.png in Resources */ = {isa = PBXBuildFile; fileRef = 082F26ED24636169008FDAC3 /* RSSI_100v4.png */; };
+		0841C75726DA97D700AB9E3E /* Icon60.png in Resources */ = {isa = PBXBuildFile; fileRef = 0841C75626DA97D700AB9E3E /* Icon60.png */; };
+		0845FA7027667CAD00F46448 /* TinyConstraints.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0845FA6F27667CAD00F46448 /* TinyConstraints.framework */; };
+		0845FA7327667CCA00F46448 /* TinyConstraints.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0841B10626A0CC6D0005BDFA /* TinyConstraints.framework */; };
+		085FB710269F5E19004985B0 /* GraphDomeTempView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 085FB70F269F5E19004985B0 /* GraphDomeTempView.swift */; };
+		085FB713269F7C11004985B0 /* GraphTempViewDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 085FB712269F7C11004985B0 /* GraphTempViewDelegate.swift */; };
+		0868D36326D6F36000CBF791 /* ScreenShot.png in Resources */ = {isa = PBXBuildFile; fileRef = 0868D36226D6F35F00CBF791 /* ScreenShot.png */; };
+		0868D36526D71DC600CBF791 /* calibrateICON.png in Resources */ = {isa = PBXBuildFile; fileRef = 0868D36426D71DC600CBF791 /* calibrateICON.png */; };
+		0868D36726D7DE6600CBF791 /* SetTmpAlrm2.png in Resources */ = {isa = PBXBuildFile; fileRef = 0868D36626D7DE6600CBF791 /* SetTmpAlrm2.png */; };
+		0868D36926D7F29B00CBF791 /* DmChrtIcn.png in Resources */ = {isa = PBXBuildFile; fileRef = 0868D36826D7F29A00CBF791 /* DmChrtIcn.png */; };
+		0868D36B26D7FA1C00CBF791 /* PrbChrtIcn.png in Resources */ = {isa = PBXBuildFile; fileRef = 0868D36A26D7FA1B00CBF791 /* PrbChrtIcn.png */; };
+		0868D36D26D800C100CBF791 /* PrbChrtIcn2.png in Resources */ = {isa = PBXBuildFile; fileRef = 0868D36C26D800C100CBF791 /* PrbChrtIcn2.png */; };
+		0880BE7B26C586730075273A /* stpProbeAlrm.png in Resources */ = {isa = PBXBuildFile; fileRef = 0880BE7A26C586720075273A /* stpProbeAlrm.png */; };
+		0880BE7D26C58BDE0075273A /* stpDomeAlrmIcon.png in Resources */ = {isa = PBXBuildFile; fileRef = 0880BE7C26C58BDD0075273A /* stpDomeAlrmIcon.png */; };
+		0880BE7F26C84E000075273A /* CloudKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0880BE7E26C84E000075273A /* CloudKit.framework */; };
+		0880BE8126CAA7300075273A /* savetoFile.png in Resources */ = {isa = PBXBuildFile; fileRef = 0880BE8026CAA72F0075273A /* savetoFile.png */; };
+		0880BE8526CAB3390075273A /* SaveDomeToFileView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0880BE8426CAB3390075273A /* SaveDomeToFileView.swift */; };
+		0880BE8726CBD9E60075273A /* SaveToFileViewDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0880BE8626CBD9E60075273A /* SaveToFileViewDelegate.swift */; };
+		0880BE8A26CC02700075273A /* saveProbeToFileIcon.png in Resources */ = {isa = PBXBuildFile; fileRef = 0880BE8826CC026F0075273A /* saveProbeToFileIcon.png */; };
+		0880BE8B26CC02700075273A /* saveDomeToFileIcon.png in Resources */ = {isa = PBXBuildFile; fileRef = 0880BE8926CC026F0075273A /* saveDomeToFileIcon.png */; };
+		0880BE8D26CC55360075273A /* SaveProbeToFileView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0880BE8C26CC55360075273A /* SaveProbeToFileView.swift */; };
+		0880BE8F26CD81DC0075273A /* ChrtSettingIcon.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 0880BE8E26CD81DC0075273A /* ChrtSettingIcon.jpg */; };
+		08845EEB26C1C043002B0054 /* Fire-alarm-sound-effect.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 08845EEA26C1C043002B0054 /* Fire-alarm-sound-effect.mp3 */; };
+		08845EED26C1F281002B0054 /* GrillDomeAlarm.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 08845EEC26C1F281002B0054 /* GrillDomeAlarm.mp3 */; };
+		08845EEF26C2BFD5002B0054 /* TmpAlrm1.png in Resources */ = {isa = PBXBuildFile; fileRef = 08845EEE26C2BFD5002B0054 /* TmpAlrm1.png */; };
+		08845EF126C2C56D002B0054 /* SetTmpAlarm.swift in Sources */ = {isa = PBXBuildFile; fileRef = 08845EF026C2C56D002B0054 /* SetTmpAlarm.swift */; };
+		08845EF326C3207F002B0054 /* GrillProbeAlarm.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 08845EF226C3207F002B0054 /* GrillProbeAlarm.mp3 */; };
+		08845EF526C32D94002B0054 /* StpAlrm.png in Resources */ = {isa = PBXBuildFile; fileRef = 08845EF426C32D94002B0054 /* StpAlrm.png */; };
+		08845EF726C3308C002B0054 /* SetTmpAlarm.png in Resources */ = {isa = PBXBuildFile; fileRef = 08845EF626C3308C002B0054 /* SetTmpAlarm.png */; };
+		089876C8266EEDA5000D0D07 /* EggZact_v2_Device.swift in Sources */ = {isa = PBXBuildFile; fileRef = 089876C7266EEDA5000D0D07 /* EggZact_v2_Device.swift */; };
+		08BCDC1D26DD9B9400327BBC /* GrillSentry_1024_1024_noBkgnd.png in Resources */ = {isa = PBXBuildFile; fileRef = 08BCDC1C26DD9B9400327BBC /* GrillSentry_1024_1024_noBkgnd.png */; };
+		08BCDC1F26DE5DA100327BBC /* GrllSntry4.png in Resources */ = {isa = PBXBuildFile; fileRef = 08BCDC1E26DE5DA100327BBC /* GrllSntry4.png */; };
+		08BCDC2126DE8B9300327BBC /* GrllSntry5.png in Resources */ = {isa = PBXBuildFile; fileRef = 08BCDC2026DE8B9300327BBC /* GrllSntry5.png */; };
+		08BCDC2326DEA17A00327BBC /* GrllSntry6.png in Resources */ = {isa = PBXBuildFile; fileRef = 08BCDC2226DEA17A00327BBC /* GrllSntry6.png */; };
+		08BCDC2526DED39C00327BBC /* blueLED.png in Resources */ = {isa = PBXBuildFile; fileRef = 08BCDC2426DED39C00327BBC /* blueLED.png */; };
+		08BCDC2726DEEBEE00327BBC /* bluLED2.png in Resources */ = {isa = PBXBuildFile; fileRef = 08BCDC2626DEEBEE00327BBC /* bluLED2.png */; };
+		08BCDC2B26DFAE7F00327BBC /* ViewController.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 08BCDC2926DFAE7F00327BBC /* ViewController.storyboard */; };
+		08BCDC2D26DFBFF300327BBC /* bluLED3.png in Resources */ = {isa = PBXBuildFile; fileRef = 08BCDC2C26DFBFF200327BBC /* bluLED3.png */; };
+		08BCDC3326DFE4BE00327BBC /* LiquidCrystal-ExBold.otf in Resources */ = {isa = PBXBuildFile; fileRef = 08BCDC3126DFE07F00327BBC /* LiquidCrystal-ExBold.otf */; };
+		08BCDC3526E0024100327BBC /* Launch Screen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 08BCDC3426E0024100327BBC /* Launch Screen.storyboard */; };
+		08BCDC3726E0060800327BBC /* GrillSentry_PoloSize2.png in Resources */ = {isa = PBXBuildFile; fileRef = 08BCDC3626E0060700327BBC /* GrillSentry_PoloSize2.png */; };
+		08EDD2CF1F69CCC9006AB141 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 08EDD2CE1F69CCC9006AB141 /* Assets.xcassets */; };
+		08EDD2DD1F69CCC9006AB141 /* EggZactTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 08EDD2DC1F69CCC9006AB141 /* EggZactTests.swift */; };
+		08EDD2E81F69CCC9006AB141 /* EggZactUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 08EDD2E71F69CCC9006AB141 /* EggZactUITests.swift */; };
+		0D0C753B308CC5C4F2C5691E /* Pods_GrillSentryTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B94ACD3AEF6C401FAFABA085 /* Pods_GrillSentryTests.framework */; };
+		23226C9461A1E43EE2625ED1 /* Pods_GrillSentry_GrillSentryUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1C70D32231D599E7550F3374 /* Pods_GrillSentry_GrillSentryUITests.framework */; };
+		A6FE2EA935D700340FDD19FC /* Pods_GrillSentry.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 724FBBC0F0D835AF0F066BAB /* Pods_GrillSentry.framework */; };
+		B62C58051FBA35E3005FB30B /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = B62C58041FBA35E2005FB30B /* AppDelegate.swift */; };
+		B62C580D1FBA39EB005FB30B /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B62C580C1FBA39EB005FB30B /* LaunchScreen.storyboard */; };
+		B64BAD5E209CCAD500F770CC /* battery020.png in Resources */ = {isa = PBXBuildFile; fileRef = B64BAD58209CCAD400F770CC /* battery020.png */; };
+		B64BAD5F209CCAD500F770CC /* battery100.png in Resources */ = {isa = PBXBuildFile; fileRef = B64BAD59209CCAD400F770CC /* battery100.png */; };
+		B64BAD60209CCAD500F770CC /* battery060.png in Resources */ = {isa = PBXBuildFile; fileRef = B64BAD5A209CCAD400F770CC /* battery060.png */; };
+		B64BAD61209CCAD500F770CC /* battery000.png in Resources */ = {isa = PBXBuildFile; fileRef = B64BAD5B209CCAD500F770CC /* battery000.png */; };
+		B64BAD62209CCAD500F770CC /* battery040.png in Resources */ = {isa = PBXBuildFile; fileRef = B64BAD5C209CCAD500F770CC /* battery040.png */; };
+		B64BAD63209CCAD500F770CC /* battery080.png in Resources */ = {isa = PBXBuildFile; fileRef = B64BAD5D209CCAD500F770CC /* battery080.png */; };
+		B6C379011FD73794004AB6B3 /* EggZact_v2_ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 08BEC0131F7B258200E603DE /* EggZact_v2_ViewController.swift */; };
+		B6C379021FD73CFB004AB6B3 /* Hex.swift in Sources */ = {isa = PBXBuildFile; fileRef = B6C378FF1FD730E0004AB6B3 /* Hex.swift */; };
+		B6C83468201751AE008C79DD /* EggZact_Client_Image_LEDOFF.png in Resources */ = {isa = PBXBuildFile; fileRef = B6C83467201751AE008C79DD /* EggZact_Client_Image_LEDOFF.png */; };
+		B6C8346A201751BD008C79DD /* EggZact_Client_Image_LEDON.png in Resources */ = {isa = PBXBuildFile; fileRef = B6C83469201751BD008C79DD /* EggZact_Client_Image_LEDON.png */; };
+		B6C8346C201915B0008C79DD /* CustomAlertView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B6C8346B201915B0008C79DD /* CustomAlertView.swift */; };
+		B6C8346E2019161E008C79DD /* CustomAlertViewDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = B6C8346D2019161E008C79DD /* CustomAlertViewDelegate.swift */; };
+		B6DB7E1A1FBF5DEA005D7CB4 /* gears.png in Resources */ = {isa = PBXBuildFile; fileRef = B6DB7E191FBF5DEA005D7CB4 /* gears.png */; };
+		C38F6EFC2140B30800DAB6B7 /* GameKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C38F6EFB2140B30800DAB6B7 /* GameKit.framework */; };
+		C38F6EFE2140B30B00DAB6B7 /* StoreKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C38F6EFD2140B30B00DAB6B7 /* StoreKit.framework */; };
+		C3EF14F42140413C00C3C7FF /* LiquidCrystal-ExBold.otf in Resources */ = {isa = PBXBuildFile; fileRef = C3EF14F32140413C00C3C7FF /* LiquidCrystal-ExBold.otf */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		08EDD2D91F69CCC9006AB141 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 08EDD2BC1F69CCC9006AB141 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 08EDD2C31F69CCC9006AB141;
+			remoteInfo = EggZact;
+		};
+		08EDD2E41F69CCC9006AB141 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 08EDD2BC1F69CCC9006AB141 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 08EDD2C31F69CCC9006AB141;
+			remoteInfo = EggZact;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		0803493C245C6C4B0062908A /* USB_Chrg1.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = USB_Chrg1.png; sourceTree = "<group>"; };
+		0803493E245CA05C0062908A /* USB_Chrg2.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = USB_Chrg2.png; sourceTree = "<group>"; };
+		08034940245CB2E60062908A /* RSSI_100v1.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = RSSI_100v1.png; sourceTree = "<group>"; };
+		08034942245CC1960062908A /* RSSI_020v1.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = RSSI_020v1.png; sourceTree = "<group>"; };
+		08034943245CC1960062908A /* RSSI_040v1.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = RSSI_040v1.png; sourceTree = "<group>"; };
+		08034944245CC1960062908A /* RSSI_080v1.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = RSSI_080v1.png; sourceTree = "<group>"; };
+		08034945245CC1960062908A /* RSSI_060v1.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = RSSI_060v1.png; sourceTree = "<group>"; };
+		0803494A245CC86D0062908A /* RSSI_000v1.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = RSSI_000v1.png; sourceTree = "<group>"; };
+		0803494C24603B3E0062908A /* RSSI_100v2.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = RSSI_100v2.png; sourceTree = "<group>"; };
+		080FA58226B9B4FB00A0C9B0 /* GraphingAppIcon3.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = GraphingAppIcon3.png; sourceTree = "<group>"; };
+		080FA58626BAEB3900A0C9B0 /* GraphProbeTempView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GraphProbeTempView.swift; sourceTree = "<group>"; };
+		080FA58C26BD8CE400A0C9B0 /* ChrtPrbTtl.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = ChrtPrbTtl.png; sourceTree = "<group>"; };
+		080FA58E26BD8FA700A0C9B0 /* ChrtIcnPrbWndw3.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = ChrtIcnPrbWndw3.png; sourceTree = "<group>"; };
+		080FA59026BDB2A300A0C9B0 /* ChartAppIcon2.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = ChartAppIcon2.png; sourceTree = "<group>"; };
+		080FA59226BDB9D900A0C9B0 /* DmeChrtTtl.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = DmeChrtTtl.png; sourceTree = "<group>"; };
+		080FA59426BDBBDE00A0C9B0 /* DomeChrtWndwIcon.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = DomeChrtWndwIcon.png; sourceTree = "<group>"; };
+		080FA59626BDBD0F00A0C9B0 /* DomeChrtIcon.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = DomeChrtIcon.png; sourceTree = "<group>"; };
+		080FA59826BDCC5800A0C9B0 /* DomeChrtWndwIcon2.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = DomeChrtWndwIcon2.png; sourceTree = "<group>"; };
+		080FA59926BDCC5900A0C9B0 /* DmeChrtTtl2.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = DmeChrtTtl2.png; sourceTree = "<group>"; };
+		080FA59A26BDCC5900A0C9B0 /* DomeChrtIcon2.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = DomeChrtIcon2.png; sourceTree = "<group>"; };
+		082F26E124635E98008FDAC3 /* RSSI_080v3.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = RSSI_080v3.png; sourceTree = "<group>"; };
+		082F26E224635E98008FDAC3 /* RSSI_100v3.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = RSSI_100v3.png; sourceTree = "<group>"; };
+		082F26E324635E98008FDAC3 /* RSSI_060v3.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = RSSI_060v3.png; sourceTree = "<group>"; };
+		082F26E424635E98008FDAC3 /* RSSI_000v3.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = RSSI_000v3.png; sourceTree = "<group>"; };
+		082F26E524635E99008FDAC3 /* RSSI_040v3.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = RSSI_040v3.png; sourceTree = "<group>"; };
+		082F26E624635E99008FDAC3 /* RSSI_020v3.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = RSSI_020v3.png; sourceTree = "<group>"; };
+		082F26ED24636169008FDAC3 /* RSSI_100v4.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = RSSI_100v4.png; sourceTree = "<group>"; };
+		0841B10626A0CC6D0005BDFA /* TinyConstraints.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; path = TinyConstraints.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		0841C75626DA97D700AB9E3E /* Icon60.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Icon60.png; sourceTree = "<group>"; };
+		0845FA6F27667CAD00F46448 /* TinyConstraints.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; path = TinyConstraints.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		085FB70F269F5E19004985B0 /* GraphDomeTempView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GraphDomeTempView.swift; sourceTree = "<group>"; };
+		085FB712269F7C11004985B0 /* GraphTempViewDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GraphTempViewDelegate.swift; sourceTree = "<group>"; };
+		0868D36226D6F35F00CBF791 /* ScreenShot.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = ScreenShot.png; sourceTree = "<group>"; };
+		0868D36426D71DC600CBF791 /* calibrateICON.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = calibrateICON.png; sourceTree = "<group>"; };
+		0868D36626D7DE6600CBF791 /* SetTmpAlrm2.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = SetTmpAlrm2.png; sourceTree = "<group>"; };
+		0868D36826D7F29A00CBF791 /* DmChrtIcn.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = DmChrtIcn.png; sourceTree = "<group>"; };
+		0868D36A26D7FA1B00CBF791 /* PrbChrtIcn.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = PrbChrtIcn.png; sourceTree = "<group>"; };
+		0868D36C26D800C100CBF791 /* PrbChrtIcn2.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = PrbChrtIcn2.png; sourceTree = "<group>"; };
+		0880BE7A26C586720075273A /* stpProbeAlrm.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = stpProbeAlrm.png; sourceTree = "<group>"; };
+		0880BE7C26C58BDD0075273A /* stpDomeAlrmIcon.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = stpDomeAlrmIcon.png; sourceTree = "<group>"; };
+		0880BE7E26C84E000075273A /* CloudKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CloudKit.framework; path = System/Library/Frameworks/CloudKit.framework; sourceTree = SDKROOT; };
+		0880BE8026CAA72F0075273A /* savetoFile.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = savetoFile.png; sourceTree = "<group>"; };
+		0880BE8426CAB3390075273A /* SaveDomeToFileView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SaveDomeToFileView.swift; sourceTree = "<group>"; };
+		0880BE8626CBD9E60075273A /* SaveToFileViewDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SaveToFileViewDelegate.swift; sourceTree = "<group>"; };
+		0880BE8826CC026F0075273A /* saveProbeToFileIcon.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = saveProbeToFileIcon.png; sourceTree = "<group>"; };
+		0880BE8926CC026F0075273A /* saveDomeToFileIcon.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = saveDomeToFileIcon.png; sourceTree = "<group>"; };
+		0880BE8C26CC55360075273A /* SaveProbeToFileView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SaveProbeToFileView.swift; sourceTree = "<group>"; };
+		0880BE8E26CD81DC0075273A /* ChrtSettingIcon.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = ChrtSettingIcon.jpg; sourceTree = "<group>"; };
+		08845EEA26C1C043002B0054 /* Fire-alarm-sound-effect.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = "Fire-alarm-sound-effect.mp3"; sourceTree = "<group>"; };
+		08845EEC26C1F281002B0054 /* GrillDomeAlarm.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = GrillDomeAlarm.mp3; sourceTree = "<group>"; };
+		08845EEE26C2BFD5002B0054 /* TmpAlrm1.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = TmpAlrm1.png; sourceTree = "<group>"; };
+		08845EF026C2C56D002B0054 /* SetTmpAlarm.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SetTmpAlarm.swift; sourceTree = "<group>"; };
+		08845EF226C3207F002B0054 /* GrillProbeAlarm.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = GrillProbeAlarm.mp3; sourceTree = "<group>"; };
+		08845EF426C32D94002B0054 /* StpAlrm.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = StpAlrm.png; sourceTree = "<group>"; };
+		08845EF626C3308C002B0054 /* SetTmpAlarm.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = SetTmpAlarm.png; sourceTree = "<group>"; };
+		089876C7266EEDA5000D0D07 /* EggZact_v2_Device.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = EggZact_v2_Device.swift; sourceTree = "<group>"; };
+		08BCDC1C26DD9B9400327BBC /* GrillSentry_1024_1024_noBkgnd.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = GrillSentry_1024_1024_noBkgnd.png; sourceTree = "<group>"; };
+		08BCDC1E26DE5DA100327BBC /* GrllSntry4.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = GrllSntry4.png; sourceTree = "<group>"; };
+		08BCDC2026DE8B9300327BBC /* GrllSntry5.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = GrllSntry5.png; sourceTree = "<group>"; };
+		08BCDC2226DEA17A00327BBC /* GrllSntry6.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = GrllSntry6.png; sourceTree = "<group>"; };
+		08BCDC2426DED39C00327BBC /* blueLED.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = blueLED.png; sourceTree = "<group>"; };
+		08BCDC2626DEEBEE00327BBC /* bluLED2.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = bluLED2.png; sourceTree = "<group>"; };
+		08BCDC2A26DFAE7F00327BBC /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/ViewController.storyboard; sourceTree = "<group>"; };
+		08BCDC2C26DFBFF200327BBC /* bluLED3.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = bluLED3.png; sourceTree = "<group>"; };
+		08BCDC3026DFE07F00327BBC /* Base */ = {isa = PBXFileReference; lastKnownFileType = file; name = Base; path = "Base.lproj/LiquidCrystal-ExBold.otf"; sourceTree = "<group>"; };
+		08BCDC3426E0024100327BBC /* Launch Screen.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = "Launch Screen.storyboard"; sourceTree = "<group>"; };
+		08BCDC3626E0060700327BBC /* GrillSentry_PoloSize2.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = GrillSentry_PoloSize2.png; sourceTree = "<group>"; };
+		08BEC0131F7B258200E603DE /* EggZact_v2_ViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = EggZact_v2_ViewController.swift; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.swift; };
+		08EDD2C41F69CCC9006AB141 /* GrillSentry.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = GrillSentry.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		08EDD2CE1F69CCC9006AB141 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		08EDD2D31F69CCC9006AB141 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		08EDD2D81F69CCC9006AB141 /* GrillSentryTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = GrillSentryTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		08EDD2DC1F69CCC9006AB141 /* EggZactTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EggZactTests.swift; sourceTree = "<group>"; };
+		08EDD2DE1F69CCC9006AB141 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		08EDD2E31F69CCC9006AB141 /* GrillSentryUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = GrillSentryUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		08EDD2E71F69CCC9006AB141 /* EggZactUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EggZactUITests.swift; sourceTree = "<group>"; };
+		08EDD2E91F69CCC9006AB141 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		1C70D32231D599E7550F3374 /* Pods_GrillSentry_GrillSentryUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_GrillSentry_GrillSentryUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		2FA0B6A9ACA911107DDC8F01 /* Pods-GrillSentry-GrillSentryUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-GrillSentry-GrillSentryUITests.release.xcconfig"; path = "Target Support Files/Pods-GrillSentry-GrillSentryUITests/Pods-GrillSentry-GrillSentryUITests.release.xcconfig"; sourceTree = "<group>"; };
+		35D6CEEE811C0C7FEADEB1DA /* Pods-GrillSentry-GrillSentryUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-GrillSentry-GrillSentryUITests.debug.xcconfig"; path = "Target Support Files/Pods-GrillSentry-GrillSentryUITests/Pods-GrillSentry-GrillSentryUITests.debug.xcconfig"; sourceTree = "<group>"; };
+		724FBBC0F0D835AF0F066BAB /* Pods_GrillSentry.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_GrillSentry.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		760B6E9FCA7BA75695A2F4E3 /* Pods-GrillSentry.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-GrillSentry.debug.xcconfig"; path = "Target Support Files/Pods-GrillSentry/Pods-GrillSentry.debug.xcconfig"; sourceTree = "<group>"; };
+		A66A00D8E2C0E2EFDE2FE24C /* Pods-GrillSentryTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-GrillSentryTests.release.xcconfig"; path = "Target Support Files/Pods-GrillSentryTests/Pods-GrillSentryTests.release.xcconfig"; sourceTree = "<group>"; };
+		B62C58041FBA35E2005FB30B /* AppDelegate.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		B62C580C1FBA39EB005FB30B /* LaunchScreen.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = LaunchScreen.storyboard; sourceTree = "<group>"; };
+		B64BAD58209CCAD400F770CC /* battery020.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = battery020.png; sourceTree = "<group>"; };
+		B64BAD59209CCAD400F770CC /* battery100.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = battery100.png; sourceTree = "<group>"; };
+		B64BAD5A209CCAD400F770CC /* battery060.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = battery060.png; sourceTree = "<group>"; };
+		B64BAD5B209CCAD500F770CC /* battery000.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = battery000.png; sourceTree = "<group>"; };
+		B64BAD5C209CCAD500F770CC /* battery040.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = battery040.png; sourceTree = "<group>"; };
+		B64BAD5D209CCAD500F770CC /* battery080.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = battery080.png; sourceTree = "<group>"; };
+		B6C378FF1FD730E0004AB6B3 /* Hex.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Hex.swift; sourceTree = "<group>"; };
+		B6C83467201751AE008C79DD /* EggZact_Client_Image_LEDOFF.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = EggZact_Client_Image_LEDOFF.png; sourceTree = "<group>"; };
+		B6C83469201751BD008C79DD /* EggZact_Client_Image_LEDON.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = EggZact_Client_Image_LEDON.png; sourceTree = "<group>"; };
+		B6C8346B201915B0008C79DD /* CustomAlertView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomAlertView.swift; sourceTree = "<group>"; };
+		B6C8346D2019161E008C79DD /* CustomAlertViewDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomAlertViewDelegate.swift; sourceTree = "<group>"; };
+		B6CACB141FE1AF74005C9034 /* EggZact.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = EggZact.entitlements; sourceTree = "<group>"; };
+		B6DB7E191FBF5DEA005D7CB4 /* gears.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = gears.png; sourceTree = "<group>"; };
+		B94ACD3AEF6C401FAFABA085 /* Pods_GrillSentryTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_GrillSentryTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		C38F6EFB2140B30800DAB6B7 /* GameKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = GameKit.framework; path = System/Library/Frameworks/GameKit.framework; sourceTree = SDKROOT; };
+		C38F6EFD2140B30B00DAB6B7 /* StoreKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = StoreKit.framework; path = System/Library/Frameworks/StoreKit.framework; sourceTree = SDKROOT; };
+		C3EF14F32140413C00C3C7FF /* LiquidCrystal-ExBold.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "LiquidCrystal-ExBold.otf"; sourceTree = "<group>"; };
+		DDC197F9836EB2332BBCB491 /* Pods-GrillSentryTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-GrillSentryTests.debug.xcconfig"; path = "Target Support Files/Pods-GrillSentryTests/Pods-GrillSentryTests.debug.xcconfig"; sourceTree = "<group>"; };
+		FB301335C50152D92C69402C /* Pods-GrillSentry.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-GrillSentry.release.xcconfig"; path = "Target Support Files/Pods-GrillSentry/Pods-GrillSentry.release.xcconfig"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		08EDD2C11F69CCC9006AB141 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0880BE7F26C84E000075273A /* CloudKit.framework in Frameworks */,
+				C38F6EFC2140B30800DAB6B7 /* GameKit.framework in Frameworks */,
+				0845FA7027667CAD00F46448 /* TinyConstraints.framework in Frameworks */,
+				0845FA7327667CCA00F46448 /* TinyConstraints.framework in Frameworks */,
+				C38F6EFE2140B30B00DAB6B7 /* StoreKit.framework in Frameworks */,
+				A6FE2EA935D700340FDD19FC /* Pods_GrillSentry.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		08EDD2D51F69CCC9006AB141 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0D0C753B308CC5C4F2C5691E /* Pods_GrillSentryTests.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		08EDD2E01F69CCC9006AB141 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				23226C9461A1E43EE2625ED1 /* Pods_GrillSentry_GrillSentryUITests.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		08BCDC2826DFA7F600327BBC /* Charts */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Charts;
+			sourceTree = "<group>";
+		};
+		08BCDC3226DFE39400327BBC /* fonts */ = {
+			isa = PBXGroup;
+			children = (
+				08BCDC3126DFE07F00327BBC /* LiquidCrystal-ExBold.otf */,
+			);
+			path = fonts;
+			sourceTree = "<group>";
+		};
+		08EDD2BB1F69CCC9006AB141 = {
+			isa = PBXGroup;
+			children = (
+				08EDD2DB1F69CCC9006AB141 /* EggZactTests */,
+				08EDD2E61F69CCC9006AB141 /* EggZactUITests */,
+				08EDD2C51F69CCC9006AB141 /* Products */,
+				C38F6EF62140B23400DAB6B7 /* Frameworks */,
+				9CE15EA9CE39088FECC2809B /* Pods */,
+			);
+			sourceTree = "<group>";
+		};
+		08EDD2C51F69CCC9006AB141 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				08EDD2C41F69CCC9006AB141 /* GrillSentry.app */,
+				08EDD2D81F69CCC9006AB141 /* GrillSentryTests.xctest */,
+				08EDD2E31F69CCC9006AB141 /* GrillSentryUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		08EDD2C61F69CCC9006AB141 /* EggZact */ = {
+			isa = PBXGroup;
+			children = (
+				B62C58041FBA35E2005FB30B /* AppDelegate.swift */,
+				08EDD2CE1F69CCC9006AB141 /* Assets.xcassets */,
+				08BCDC2826DFA7F600327BBC /* Charts */,
+				B6C8346B201915B0008C79DD /* CustomAlertView.swift */,
+				B6C8346D2019161E008C79DD /* CustomAlertViewDelegate.swift */,
+				089876C7266EEDA5000D0D07 /* EggZact_v2_Device.swift */,
+				08BEC0131F7B258200E603DE /* EggZact_v2_ViewController.swift */,
+				B6CACB141FE1AF74005C9034 /* EggZact.entitlements */,
+				08845EEA26C1C043002B0054 /* Fire-alarm-sound-effect.mp3 */,
+				08BCDC3226DFE39400327BBC /* fonts */,
+				085FB70F269F5E19004985B0 /* GraphDomeTempView.swift */,
+				080FA58626BAEB3900A0C9B0 /* GraphProbeTempView.swift */,
+				085FB712269F7C11004985B0 /* GraphTempViewDelegate.swift */,
+				08845EEC26C1F281002B0054 /* GrillDomeAlarm.mp3 */,
+				08845EF226C3207F002B0054 /* GrillProbeAlarm.mp3 */,
+				B6C378FF1FD730E0004AB6B3 /* Hex.swift */,
+				B64AE1B42034D8EB0071BC4F /* Images */,
+				08EDD2D31F69CCC9006AB141 /* Info.plist */,
+				B62C580C1FBA39EB005FB30B /* LaunchScreen.storyboard */,
+				C3EF14F32140413C00C3C7FF /* LiquidCrystal-ExBold.otf */,
+				0880BE8426CAB3390075273A /* SaveDomeToFileView.swift */,
+				0880BE8C26CC55360075273A /* SaveProbeToFileView.swift */,
+				0880BE8626CBD9E60075273A /* SaveToFileViewDelegate.swift */,
+				08845EF026C2C56D002B0054 /* SetTmpAlarm.swift */,
+				08BCDC2926DFAE7F00327BBC /* ViewController.storyboard */,
+				08BCDC3426E0024100327BBC /* Launch Screen.storyboard */,
+			);
+			path = EggZact;
+			sourceTree = "<group>";
+		};
+		08EDD2DB1F69CCC9006AB141 /* EggZactTests */ = {
+			isa = PBXGroup;
+			children = (
+				08EDD2DC1F69CCC9006AB141 /* EggZactTests.swift */,
+				08EDD2DE1F69CCC9006AB141 /* Info.plist */,
+			);
+			path = EggZactTests;
+			sourceTree = "<group>";
+		};
+		08EDD2E61F69CCC9006AB141 /* EggZactUITests */ = {
+			isa = PBXGroup;
+			children = (
+				08EDD2E71F69CCC9006AB141 /* EggZactUITests.swift */,
+				08EDD2E91F69CCC9006AB141 /* Info.plist */,
+			);
+			path = EggZactUITests;
+			sourceTree = "<group>";
+		};
+		9CE15EA9CE39088FECC2809B /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				760B6E9FCA7BA75695A2F4E3 /* Pods-GrillSentry.debug.xcconfig */,
+				FB301335C50152D92C69402C /* Pods-GrillSentry.release.xcconfig */,
+				35D6CEEE811C0C7FEADEB1DA /* Pods-GrillSentry-GrillSentryUITests.debug.xcconfig */,
+				2FA0B6A9ACA911107DDC8F01 /* Pods-GrillSentry-GrillSentryUITests.release.xcconfig */,
+				DDC197F9836EB2332BBCB491 /* Pods-GrillSentryTests.debug.xcconfig */,
+				A66A00D8E2C0E2EFDE2FE24C /* Pods-GrillSentryTests.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
+		B64AE1B42034D8EB0071BC4F /* Images */ = {
+			isa = PBXGroup;
+			children = (
+				08BCDC3626E0060700327BBC /* GrillSentry_PoloSize2.png */,
+				08BCDC2C26DFBFF200327BBC /* bluLED3.png */,
+				B64BAD5B209CCAD500F770CC /* battery000.png */,
+				B64BAD58209CCAD400F770CC /* battery020.png */,
+				B64BAD5C209CCAD500F770CC /* battery040.png */,
+				B64BAD5A209CCAD400F770CC /* battery060.png */,
+				B64BAD5D209CCAD500F770CC /* battery080.png */,
+				B64BAD59209CCAD400F770CC /* battery100.png */,
+				08BCDC2426DED39C00327BBC /* blueLED.png */,
+				08BCDC2626DEEBEE00327BBC /* bluLED2.png */,
+				0868D36426D71DC600CBF791 /* calibrateICON.png */,
+				080FA59026BDB2A300A0C9B0 /* ChartAppIcon2.png */,
+				080FA58E26BD8FA700A0C9B0 /* ChrtIcnPrbWndw3.png */,
+				080FA58C26BD8CE400A0C9B0 /* ChrtPrbTtl.png */,
+				0880BE8E26CD81DC0075273A /* ChrtSettingIcon.jpg */,
+				0868D36826D7F29A00CBF791 /* DmChrtIcn.png */,
+				080FA59226BDB9D900A0C9B0 /* DmeChrtTtl.png */,
+				080FA59926BDCC5900A0C9B0 /* DmeChrtTtl2.png */,
+				080FA59626BDBD0F00A0C9B0 /* DomeChrtIcon.png */,
+				080FA59A26BDCC5900A0C9B0 /* DomeChrtIcon2.png */,
+				080FA59426BDBBDE00A0C9B0 /* DomeChrtWndwIcon.png */,
+				080FA59826BDCC5800A0C9B0 /* DomeChrtWndwIcon2.png */,
+				B6C83467201751AE008C79DD /* EggZact_Client_Image_LEDOFF.png */,
+				B6C83469201751BD008C79DD /* EggZact_Client_Image_LEDON.png */,
+				B6DB7E191FBF5DEA005D7CB4 /* gears.png */,
+				080FA58226B9B4FB00A0C9B0 /* GraphingAppIcon3.png */,
+				08BCDC1C26DD9B9400327BBC /* GrillSentry_1024_1024_noBkgnd.png */,
+				08BCDC1E26DE5DA100327BBC /* GrllSntry4.png */,
+				08BCDC2026DE8B9300327BBC /* GrllSntry5.png */,
+				08BCDC2226DEA17A00327BBC /* GrllSntry6.png */,
+				0841C75626DA97D700AB9E3E /* Icon60.png */,
+				0868D36A26D7FA1B00CBF791 /* PrbChrtIcn.png */,
+				0868D36C26D800C100CBF791 /* PrbChrtIcn2.png */,
+				0803494A245CC86D0062908A /* RSSI_000v1.png */,
+				082F26E424635E98008FDAC3 /* RSSI_000v3.png */,
+				08034942245CC1960062908A /* RSSI_020v1.png */,
+				082F26E624635E99008FDAC3 /* RSSI_020v3.png */,
+				08034943245CC1960062908A /* RSSI_040v1.png */,
+				082F26E524635E99008FDAC3 /* RSSI_040v3.png */,
+				08034945245CC1960062908A /* RSSI_060v1.png */,
+				082F26E324635E98008FDAC3 /* RSSI_060v3.png */,
+				08034944245CC1960062908A /* RSSI_080v1.png */,
+				082F26E124635E98008FDAC3 /* RSSI_080v3.png */,
+				08034940245CB2E60062908A /* RSSI_100v1.png */,
+				0803494C24603B3E0062908A /* RSSI_100v2.png */,
+				082F26E224635E98008FDAC3 /* RSSI_100v3.png */,
+				082F26ED24636169008FDAC3 /* RSSI_100v4.png */,
+				0880BE8926CC026F0075273A /* saveDomeToFileIcon.png */,
+				0880BE8826CC026F0075273A /* saveProbeToFileIcon.png */,
+				0880BE8026CAA72F0075273A /* savetoFile.png */,
+				0868D36226D6F35F00CBF791 /* ScreenShot.png */,
+				08845EF626C3308C002B0054 /* SetTmpAlarm.png */,
+				0868D36626D7DE6600CBF791 /* SetTmpAlrm2.png */,
+				08845EF426C32D94002B0054 /* StpAlrm.png */,
+				0880BE7C26C58BDD0075273A /* stpDomeAlrmIcon.png */,
+				0880BE7A26C586720075273A /* stpProbeAlrm.png */,
+				08845EEE26C2BFD5002B0054 /* TmpAlrm1.png */,
+				0803493C245C6C4B0062908A /* USB_Chrg1.png */,
+				0803493E245CA05C0062908A /* USB_Chrg2.png */,
+			);
+			path = Images;
+			sourceTree = "<group>";
+		};
+		C38F6EF62140B23400DAB6B7 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				0845FA6F27667CAD00F46448 /* TinyConstraints.framework */,
+				0880BE7E26C84E000075273A /* CloudKit.framework */,
+				0841B10626A0CC6D0005BDFA /* TinyConstraints.framework */,
+				C38F6EFD2140B30B00DAB6B7 /* StoreKit.framework */,
+				C38F6EFB2140B30800DAB6B7 /* GameKit.framework */,
+				08EDD2C61F69CCC9006AB141 /* EggZact */,
+				724FBBC0F0D835AF0F066BAB /* Pods_GrillSentry.framework */,
+				1C70D32231D599E7550F3374 /* Pods_GrillSentry_GrillSentryUITests.framework */,
+				B94ACD3AEF6C401FAFABA085 /* Pods_GrillSentryTests.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		08EDD2C31F69CCC9006AB141 /* GrillSentry */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 08EDD2EC1F69CCC9006AB141 /* Build configuration list for PBXNativeTarget "GrillSentry" */;
+			buildPhases = (
+				F8E732E32C883695D0F325C5 /* [CP] Check Pods Manifest.lock */,
+				08EDD2C01F69CCC9006AB141 /* Sources */,
+				08EDD2C11F69CCC9006AB141 /* Frameworks */,
+				08EDD2C21F69CCC9006AB141 /* Resources */,
+				80EB669B3120478F2EEBA415 /* [CP] Embed Pods Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = GrillSentry;
+			productName = EggZact;
+			productReference = 08EDD2C41F69CCC9006AB141 /* GrillSentry.app */;
+			productType = "com.apple.product-type.application";
+		};
+		08EDD2D71F69CCC9006AB141 /* GrillSentryTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 08EDD2EF1F69CCC9006AB141 /* Build configuration list for PBXNativeTarget "GrillSentryTests" */;
+			buildPhases = (
+				DABB75E0D71B5953466089AF /* [CP] Check Pods Manifest.lock */,
+				08EDD2D41F69CCC9006AB141 /* Sources */,
+				08EDD2D51F69CCC9006AB141 /* Frameworks */,
+				08EDD2D61F69CCC9006AB141 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				08EDD2DA1F69CCC9006AB141 /* PBXTargetDependency */,
+			);
+			name = GrillSentryTests;
+			productName = EggZactTests;
+			productReference = 08EDD2D81F69CCC9006AB141 /* GrillSentryTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		08EDD2E21F69CCC9006AB141 /* GrillSentryUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 08EDD2F21F69CCC9006AB141 /* Build configuration list for PBXNativeTarget "GrillSentryUITests" */;
+			buildPhases = (
+				022BBAC9A9CEE32DD4BF1538 /* [CP] Check Pods Manifest.lock */,
+				08EDD2DF1F69CCC9006AB141 /* Sources */,
+				08EDD2E01F69CCC9006AB141 /* Frameworks */,
+				08EDD2E11F69CCC9006AB141 /* Resources */,
+				37BA83C65CCC33968424525A /* [CP] Embed Pods Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				08EDD2E51F69CCC9006AB141 /* PBXTargetDependency */,
+			);
+			name = GrillSentryUITests;
+			productName = EggZactUITests;
+			productReference = 08EDD2E31F69CCC9006AB141 /* GrillSentryUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		08EDD2BC1F69CCC9006AB141 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0830;
+				LastUpgradeCheck = 1210;
+				ORGANIZATIONNAME = "Ken Sticher";
+				TargetAttributes = {
+					08EDD2C31F69CCC9006AB141 = {
+						CreatedOnToolsVersion = 8.3.3;
+						DevelopmentTeam = 4DF5UZ3HNF;
+						LastSwiftMigration = 1130;
+						ProvisioningStyle = Automatic;
+						SystemCapabilities = {
+							com.apple.GameCenter.iOS = {
+								enabled = 1;
+							};
+							com.apple.InAppPurchase = {
+								enabled = 1;
+							};
+							com.apple.Keychain = {
+								enabled = 1;
+							};
+						};
+					};
+					08EDD2D71F69CCC9006AB141 = {
+						CreatedOnToolsVersion = 8.3.3;
+						LastSwiftMigration = 0900;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 08EDD2C31F69CCC9006AB141;
+					};
+					08EDD2E21F69CCC9006AB141 = {
+						CreatedOnToolsVersion = 8.3.3;
+						LastSwiftMigration = 0900;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 08EDD2C31F69CCC9006AB141;
+					};
+				};
+			};
+			buildConfigurationList = 08EDD2BF1F69CCC9006AB141 /* Build configuration list for PBXProject "GrillSentry" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 08EDD2BB1F69CCC9006AB141;
+			productRefGroup = 08EDD2C51F69CCC9006AB141 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				08EDD2C31F69CCC9006AB141 /* GrillSentry */,
+				08EDD2D71F69CCC9006AB141 /* GrillSentryTests */,
+				08EDD2E21F69CCC9006AB141 /* GrillSentryUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		08EDD2C21F69CCC9006AB141 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				08BCDC2526DED39C00327BBC /* blueLED.png in Resources */,
+				C3EF14F42140413C00C3C7FF /* LiquidCrystal-ExBold.otf in Resources */,
+				08845EEB26C1C043002B0054 /* Fire-alarm-sound-effect.mp3 in Resources */,
+				08845EEF26C2BFD5002B0054 /* TmpAlrm1.png in Resources */,
+				0803493F245CA05C0062908A /* USB_Chrg2.png in Resources */,
+				0868D36B26D7FA1C00CBF791 /* PrbChrtIcn.png in Resources */,
+				0868D36926D7F29B00CBF791 /* DmChrtIcn.png in Resources */,
+				080FA58326B9B4FC00A0C9B0 /* GraphingAppIcon3.png in Resources */,
+				08BCDC2726DEEBEE00327BBC /* bluLED2.png in Resources */,
+				08BCDC1D26DD9B9400327BBC /* GrillSentry_1024_1024_noBkgnd.png in Resources */,
+				080FA59B26BDCC5A00A0C9B0 /* DomeChrtWndwIcon2.png in Resources */,
+				B6DB7E1A1FBF5DEA005D7CB4 /* gears.png in Resources */,
+				080FA59126BDB2A700A0C9B0 /* ChartAppIcon2.png in Resources */,
+				0803493D245C6C4C0062908A /* USB_Chrg1.png in Resources */,
+				080FA59526BDBBDE00A0C9B0 /* DomeChrtWndwIcon.png in Resources */,
+				B6C8346A201751BD008C79DD /* EggZact_Client_Image_LEDON.png in Resources */,
+				08034946245CC1960062908A /* RSSI_020v1.png in Resources */,
+				B64BAD60209CCAD500F770CC /* battery060.png in Resources */,
+				080FA58F26BD8FA800A0C9B0 /* ChrtIcnPrbWndw3.png in Resources */,
+				082F26EB24635E99008FDAC3 /* RSSI_040v3.png in Resources */,
+				08BCDC3326DFE4BE00327BBC /* LiquidCrystal-ExBold.otf in Resources */,
+				082F26EC24635E99008FDAC3 /* RSSI_020v3.png in Resources */,
+				0880BE8126CAA7300075273A /* savetoFile.png in Resources */,
+				08845EF726C3308C002B0054 /* SetTmpAlarm.png in Resources */,
+				0803494B245CC86E0062908A /* RSSI_000v1.png in Resources */,
+				08BCDC2D26DFBFF300327BBC /* bluLED3.png in Resources */,
+				08EDD2CF1F69CCC9006AB141 /* Assets.xcassets in Resources */,
+				08BCDC2126DE8B9300327BBC /* GrllSntry5.png in Resources */,
+				0868D36326D6F36000CBF791 /* ScreenShot.png in Resources */,
+				0868D36526D71DC600CBF791 /* calibrateICON.png in Resources */,
+				0880BE7D26C58BDE0075273A /* stpDomeAlrmIcon.png in Resources */,
+				0880BE7B26C586730075273A /* stpProbeAlrm.png in Resources */,
+				B64BAD5F209CCAD500F770CC /* battery100.png in Resources */,
+				B6C83468201751AE008C79DD /* EggZact_Client_Image_LEDOFF.png in Resources */,
+				08BCDC2326DEA17A00327BBC /* GrllSntry6.png in Resources */,
+				082F26E824635E99008FDAC3 /* RSSI_100v3.png in Resources */,
+				08BCDC1F26DE5DA100327BBC /* GrllSntry4.png in Resources */,
+				08845EED26C1F281002B0054 /* GrillDomeAlarm.mp3 in Resources */,
+				082F26EA24635E99008FDAC3 /* RSSI_000v3.png in Resources */,
+				082F26EE24636169008FDAC3 /* RSSI_100v4.png in Resources */,
+				08845EF526C32D94002B0054 /* StpAlrm.png in Resources */,
+				080FA59D26BDCC5A00A0C9B0 /* DomeChrtIcon2.png in Resources */,
+				08034941245CB2E60062908A /* RSSI_100v1.png in Resources */,
+				B64BAD63209CCAD500F770CC /* battery080.png in Resources */,
+				0880BE8A26CC02700075273A /* saveProbeToFileIcon.png in Resources */,
+				08BCDC3726E0060800327BBC /* GrillSentry_PoloSize2.png in Resources */,
+				0868D36726D7DE6600CBF791 /* SetTmpAlrm2.png in Resources */,
+				0880BE8B26CC02700075273A /* saveDomeToFileIcon.png in Resources */,
+				08845EF326C3207F002B0054 /* GrillProbeAlarm.mp3 in Resources */,
+				082F26E724635E99008FDAC3 /* RSSI_080v3.png in Resources */,
+				080FA59726BDBD1000A0C9B0 /* DomeChrtIcon.png in Resources */,
+				0880BE8F26CD81DC0075273A /* ChrtSettingIcon.jpg in Resources */,
+				08BCDC2B26DFAE7F00327BBC /* ViewController.storyboard in Resources */,
+				080FA59326BDB9DC00A0C9B0 /* DmeChrtTtl.png in Resources */,
+				08034947245CC1960062908A /* RSSI_040v1.png in Resources */,
+				B62C580D1FBA39EB005FB30B /* LaunchScreen.storyboard in Resources */,
+				08BCDC3526E0024100327BBC /* Launch Screen.storyboard in Resources */,
+				0868D36D26D800C100CBF791 /* PrbChrtIcn2.png in Resources */,
+				08034948245CC1960062908A /* RSSI_080v1.png in Resources */,
+				0841C75726DA97D700AB9E3E /* Icon60.png in Resources */,
+				082F26E924635E99008FDAC3 /* RSSI_060v3.png in Resources */,
+				0803494D24603B3F0062908A /* RSSI_100v2.png in Resources */,
+				080FA58D26BD8CE400A0C9B0 /* ChrtPrbTtl.png in Resources */,
+				B64BAD62209CCAD500F770CC /* battery040.png in Resources */,
+				B64BAD5E209CCAD500F770CC /* battery020.png in Resources */,
+				080FA59C26BDCC5A00A0C9B0 /* DmeChrtTtl2.png in Resources */,
+				08034949245CC1960062908A /* RSSI_060v1.png in Resources */,
+				B64BAD61209CCAD500F770CC /* battery000.png in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		08EDD2D61F69CCC9006AB141 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		08EDD2E11F69CCC9006AB141 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		022BBAC9A9CEE32DD4BF1538 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-GrillSentry-GrillSentryUITests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		37BA83C65CCC33968424525A /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-GrillSentry-GrillSentryUITests/Pods-GrillSentry-GrillSentryUITests-frameworks.sh",
+				"${BUILT_PRODUCTS_DIR}/Charts/Charts.framework",
+				"${BUILT_PRODUCTS_DIR}/TinyConstraints/TinyConstraints.framework",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Charts.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/TinyConstraints.framework",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-GrillSentry-GrillSentryUITests/Pods-GrillSentry-GrillSentryUITests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		80EB669B3120478F2EEBA415 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-GrillSentry/Pods-GrillSentry-frameworks.sh",
+				"${BUILT_PRODUCTS_DIR}/Charts/Charts.framework",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Charts.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/TinyConstraints.framework",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-GrillSentry/Pods-GrillSentry-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		DABB75E0D71B5953466089AF /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-GrillSentryTests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		F8E732E32C883695D0F325C5 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-GrillSentry-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		08EDD2C01F69CCC9006AB141 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B6C8346E2019161E008C79DD /* CustomAlertViewDelegate.swift in Sources */,
+				085FB710269F5E19004985B0 /* GraphDomeTempView.swift in Sources */,
+				0880BE8D26CC55360075273A /* SaveProbeToFileView.swift in Sources */,
+				0880BE8526CAB3390075273A /* SaveDomeToFileView.swift in Sources */,
+				089876C8266EEDA5000D0D07 /* EggZact_v2_Device.swift in Sources */,
+				B62C58051FBA35E3005FB30B /* AppDelegate.swift in Sources */,
+				085FB713269F7C11004985B0 /* GraphTempViewDelegate.swift in Sources */,
+				08845EF126C2C56D002B0054 /* SetTmpAlarm.swift in Sources */,
+				0880BE8726CBD9E60075273A /* SaveToFileViewDelegate.swift in Sources */,
+				B6C379011FD73794004AB6B3 /* EggZact_v2_ViewController.swift in Sources */,
+				B6C8346C201915B0008C79DD /* CustomAlertView.swift in Sources */,
+				B6C379021FD73CFB004AB6B3 /* Hex.swift in Sources */,
+				080FA58726BAEB3900A0C9B0 /* GraphProbeTempView.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		08EDD2D41F69CCC9006AB141 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				08EDD2DD1F69CCC9006AB141 /* EggZactTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		08EDD2DF1F69CCC9006AB141 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				08EDD2E81F69CCC9006AB141 /* EggZactUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		08EDD2DA1F69CCC9006AB141 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 08EDD2C31F69CCC9006AB141 /* GrillSentry */;
+			targetProxy = 08EDD2D91F69CCC9006AB141 /* PBXContainerItemProxy */;
+		};
+		08EDD2E51F69CCC9006AB141 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 08EDD2C31F69CCC9006AB141 /* GrillSentry */;
+			targetProxy = 08EDD2E41F69CCC9006AB141 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		08BCDC2926DFAE7F00327BBC /* ViewController.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				08BCDC2A26DFAE7F00327BBC /* Base */,
+			);
+			name = ViewController.storyboard;
+			sourceTree = "<group>";
+		};
+		08BCDC3126DFE07F00327BBC /* LiquidCrystal-ExBold.otf */ = {
+			isa = PBXVariantGroup;
+			children = (
+				08BCDC3026DFE07F00327BBC /* Base */,
+			);
+			name = "LiquidCrystal-ExBold.otf";
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		08EDD2EA1F69CCC9006AB141 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				"INFOPLIST_FILE[sdk=*]" = "";
+				IPHONEOS_DEPLOYMENT_TARGET = 14.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		08EDD2EB1F69CCC9006AB141 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				"INFOPLIST_FILE[sdk=*]" = "";
+				IPHONEOS_DEPLOYMENT_TARGET = 14.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		08EDD2ED1F69CCC9006AB141 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 760B6E9FCA7BA75695A2F4E3 /* Pods-GrillSentry.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_ENTITLEMENTS = EggZact/EggZact.entitlements;
+				CODE_SIGN_IDENTITY = "Apple Development";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 2.0.0;
+				DEVELOPMENT_TEAM = 4DF5UZ3HNF;
+				INFOPLIST_FILE = EggZact/Info.plist;
+				"INFOPLIST_FILE[sdk=*]" = EggZact/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.3;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				MARKETING_VERSION = 5.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.circuitdesigninc.GrillSentry;
+				PRODUCT_NAME = GrillSentry;
+				PROVISIONING_PROFILE_SPECIFIER = "";
+				SWIFT_SWIFT3_OBJC_INFERENCE = Off;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		08EDD2EE1F69CCC9006AB141 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = FB301335C50152D92C69402C /* Pods-GrillSentry.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_ENTITLEMENTS = EggZact/EggZact.entitlements;
+				CODE_SIGN_IDENTITY = "Apple Development";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 2.0.0;
+				DEVELOPMENT_TEAM = 4DF5UZ3HNF;
+				INFOPLIST_FILE = EggZact/Info.plist;
+				"INFOPLIST_FILE[sdk=*]" = EggZact/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.3;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				MARKETING_VERSION = 5.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.circuitdesigninc.GrillSentry;
+				PRODUCT_NAME = GrillSentry;
+				PROVISIONING_PROFILE_SPECIFIER = "";
+				SWIFT_SWIFT3_OBJC_INFERENCE = Off;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		08EDD2F01F69CCC9006AB141 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = DDC197F9836EB2332BBCB491 /* Pods-GrillSentryTests.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = EggZactTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "Circuit-Design-Inc.EggZactTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_SWIFT3_OBJC_INFERENCE = On;
+				SWIFT_VERSION = 4.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/GrillSentry.app/GrillSentry";
+			};
+			name = Debug;
+		};
+		08EDD2F11F69CCC9006AB141 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = A66A00D8E2C0E2EFDE2FE24C /* Pods-GrillSentryTests.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = EggZactTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "Circuit-Design-Inc.EggZactTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_SWIFT3_OBJC_INFERENCE = On;
+				SWIFT_VERSION = 4.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/GrillSentry.app/GrillSentry";
+			};
+			name = Release;
+		};
+		08EDD2F31F69CCC9006AB141 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 35D6CEEE811C0C7FEADEB1DA /* Pods-GrillSentry-GrillSentryUITests.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				INFOPLIST_FILE = EggZactUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "Circuit-Design-Inc.EggZactUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_SWIFT3_OBJC_INFERENCE = On;
+				SWIFT_VERSION = 4.0;
+				TEST_TARGET_NAME = EggZact;
+			};
+			name = Debug;
+		};
+		08EDD2F41F69CCC9006AB141 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 2FA0B6A9ACA911107DDC8F01 /* Pods-GrillSentry-GrillSentryUITests.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				INFOPLIST_FILE = EggZactUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "Circuit-Design-Inc.EggZactUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_SWIFT3_OBJC_INFERENCE = On;
+				SWIFT_VERSION = 4.0;
+				TEST_TARGET_NAME = EggZact;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		08EDD2BF1F69CCC9006AB141 /* Build configuration list for PBXProject "GrillSentry" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				08EDD2EA1F69CCC9006AB141 /* Debug */,
+				08EDD2EB1F69CCC9006AB141 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		08EDD2EC1F69CCC9006AB141 /* Build configuration list for PBXNativeTarget "GrillSentry" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				08EDD2ED1F69CCC9006AB141 /* Debug */,
+				08EDD2EE1F69CCC9006AB141 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		08EDD2EF1F69CCC9006AB141 /* Build configuration list for PBXNativeTarget "GrillSentryTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				08EDD2F01F69CCC9006AB141 /* Debug */,
+				08EDD2F11F69CCC9006AB141 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		08EDD2F21F69CCC9006AB141 /* Build configuration list for PBXNativeTarget "GrillSentryUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				08EDD2F31F69CCC9006AB141 /* Debug */,
+				08EDD2F41F69CCC9006AB141 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 08EDD2BC1F69CCC9006AB141 /* Project object */;
+}
