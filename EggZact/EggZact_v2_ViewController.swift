@@ -5,6 +5,8 @@
 //
 //  Created by Ken Sticher on 9/26/17.
 //
+//  Modifications for Charts Sept2021
+// Modifications for iPhone12 Dec2021
 //
 
 import UIKit
