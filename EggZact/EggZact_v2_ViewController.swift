@@ -1999,9 +1999,9 @@ class ViewController: UIViewController, CBCentralManagerDelegate, CBPeripheralDe
     @objc func flashForConnect()
     {
         
-        Command.font = UIFont(name: "LiquidCrystal-ExtraBold", size: 54 )
+        Command.font = UIFont(name: "LiquidCrystal-ExtraBold", size: 60 )
+      //  Command.textAlignment = NSTextAlignment.center
         Command.textAlignment = NSTextAlignment.center
-        
         Command.backgroundColor = UIColor.clear
         Command.textColor = UIColor.green
 

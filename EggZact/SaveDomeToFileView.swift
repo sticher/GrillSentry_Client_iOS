@@ -131,8 +131,8 @@ class saveDomeChartToFileView: UIViewController, UIDocumentPickerDelegate, UINav
     self.view.addSubview(domeChrtSmplLbl)
 
         domeChartSampleRateLbl.textAlignment = NSTextAlignment.center
-        domeChartSampleRateLbl.text = "Enter Dome Chart Log File \n" + "Sample Rate (sample per minute)"
-        domeChartSampleRateLbl.font = UIFont(name: "LiquidCrystal-ExtraBold", size: 24  )
+        domeChartSampleRateLbl.text = "Enter Dome Chart Log File Sample Rate (sample per minute)"
+        domeChartSampleRateLbl.font = UIFont(name: "LiquidCrystal-ExtraBold", size: 12  )
         domeChartSampleRateLbl.backgroundColor = UIColor.black
         domeChartSampleRateLbl.textColor = UIColor.green
     self.view.addSubview(domeChartSampleRateLbl)

@@ -81,7 +81,7 @@ class saveProbeChartToFileView: UIViewController, UIDocumentPickerDelegate, UINa
         self.view.addSubview(probeChrtSmplLbl)
         
         ProbeChrtLabel.textAlignment = NSTextAlignment.center
-        ProbeChrtLabel.text = "Enter Probe Chart Log File \n" + "Sample Rate (sample per minute)"
+        ProbeChrtLabel.text = "Enter Probe Chart Log File Sample Rate (sample per minute)"
         ProbeChrtLabel.font = UIFont(name: "LiquidCrystal-ExtraBold", size: 12    )
         ProbeChrtLabel.backgroundColor = UIColor.black
         ProbeChrtLabel.textColor = UIColor.white
