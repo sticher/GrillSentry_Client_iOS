@@ -564,6 +564,41 @@ class ViewController: UIViewController, CBCentralManagerDelegate, CBPeripheralDe
                 }
             }
      */
+        
+     // this code below added Jan2022 to correct BLE weak RF signal disconnect then "Tap to Connect" will not re-connect problem
+    
+        if let EggZact = self.EggZact
+        {
+            
+            centralManager.cancelPeripheralConnection(EggZact) // From your app’s perspective the peripheral is considered disconnected. centralManager:didDisconnectPeripheral is called
+            //centralManager.scanForPeripherals(withServices: nil, options: nil)
+        }
+        
+        EggZact = nil
+        Command.textColor = UIColor.green
+        Command.text = "Disconnect"
+        alreadyConnected = false
+        settingsButton.isHidden = true
+        batteryButton.isHidden  = true
+        USBChrgButton.isHidden = true
+        RSSIButton.isHidden = true
+        RSSILabel.isHidden = true
+        domeChartButton.isHidden = true
+        probeChartButton.isHidden = true
+
+        stopProbeTempAlrmBttn.isHidden = true
+        stopDomeTempAlrmBttn.isHidden = true
+        setTempAlrmBttn.isHidden = true
+        
+        domeAlrmValueDsply.isHidden = true
+        probeAlrmValueDsply.isHidden = true
+        
+        domeTimer?.invalidate()
+        probeTimer?.invalidate()
+        batteryTimer?.invalidate()
+    
+    // this code above added Jan2022 to correct the BLE weak RF signal disconnect then "Tap to Connect" will not re-connect problem
+        
         flashBlueLEDTimer?.invalidate()
         blueLED.isHidden = true
         centralManager.scanForPeripherals(withServices: nil, options: nil)     //  exit(0)
@@ -669,7 +704,7 @@ class ViewController: UIViewController, CBCentralManagerDelegate, CBPeripheralDe
                 if (tempString.contains("H")) {// check the server HWv Gen2, Gen2.5, or Gen3 ?
                 versionString     = ("Server: \(tempString)")
 //              clientVersionString = ("Client: G3_v1.0")
-                clientVersionString = ("Client: G3_Charts_v2.0")
+                clientVersionString = ("Client: G3_Charts_v3.0")
                     
                 if (tempString.contains("G20120")) {
                     if(serverattachedString == "Gen20120") {
